@@ -142,8 +142,8 @@ A total of 18 models were trained and evaluated: 15 YOLO variants (YOLOv8/v10/v1
 | Model | mAP@50 (%) | mAP@50-95 (%) | Precision | Recall | FPS | Parameters | Training Time (hrs) | Literature Comparison |
 |-------|------------|---------------|-----------|--------|-----|------------|---------------------|----------------------|
 | **Object Detection (YOLO)** ||||||||
-| YOLOv11x | **81.85** | **58.38** | 0.8213 | 0.7610 | 51.79 | 56.9M | 21.3 | +8.15% vs. YOLOv6-L on RSUD20K (Zunair et al., 2024) |
-| YOLOv11l | 80.12 | 56.94 | 0.8102 | 0.7502 | 89.34 | 25.3M | 15.8 | Superior to ViT-YOLO (41.0%) on aerial data (Zhang et al., 2021) |
+| YOLOv11x | **81.85** | **58.38** | 0.8213 | 0.7610 | 51.79 | 56.9M | 21.3 | +8.15% vs. YOLOv6-L on RSUD20K (Zunair et al., 2024) [3] |
+| YOLOv11l | 80.12 | 56.94 | 0.8102 | 0.7502 | 89.34 | 25.3M | 15.8 | Superior to ViT-YOLO (41.0%) on aerial data (Zhang et al., 2021)[7] |
 | YOLOv11m | 79.54 | 55.21 | 0.7989 | 0.7445 | 120.77 | 20.1M | 12.4 | **⭐ Optimal balance for production deployment** |
 | YOLOv11s | 76.21 | 52.34 | 0.7734 | 0.7123 | 298.45 | 9.4M | 7.2 | Exceeds YOLOv3 COCO (57.9%) on regional dataset (Zhao et al., 2018) |
 | YOLOv11n | 72.34 | 48.12 | 0.7421 | 0.6812 | 432.09 | 2.6M | 4.8 | Real-time capable, suitable for edge deployment |
