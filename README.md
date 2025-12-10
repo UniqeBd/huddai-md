@@ -1,6 +1,19 @@
 # Chapter 4: Conclusion and Future Work
 
 ## 4.1 Conclusion
+| Total Scenarios Tested | **114,167 frames** | Comprehensive evaluation |
+| DANGER Situations Detected | **19,035 (16.7%)** | Collision avoidance (Bojarski et al., 2017) |
+| WARNING Situations | **89,590 (78.5%)** | Active safety zone (Shalev-Shwartz et al., 2020) |
+| CAUTION Situations | **5,542 (4.9%)** | Defensive driving principles |
+| SAFE Situations | **0 (0%)** | Dense traffic scenario (no safe zones) |
+| Average Closest Distance | **2.73 m** | Close proximity tracking validated |
+| **Action Distribution** | | **Decision-making analysis** |
+| CHANGE_RIGHT | 74,621 (65.4%) | Right lane preference (traffic flow) |
+| CHANGE_LEFT | 20,039 (17.5%) | Overtaking maneuvers |
+| BRAKE (Emergency) | 19,035 (16.7%) | Danger response actions |
+| SLOW_DOWN | 471 (0.4%) | Gradual deceleration |
+| MAINTAIN | 1 (0.001%) | Stable driving (rare in dense traffic) |
+
 
 Road safety and autonomous vehicle navigation represent critical challenges in modern transportation systems due to their direct impact on human lives. The development of accurate, real-time vehicle detection and path planning systems can significantly reduce accidents and improve traffic flow. Manual monitoring of traffic conditions is time-consuming, prone to errors, and impossible to scale for comprehensive road safety coverage. Therefore, the field of intelligent transportation systems would benefit greatly from any automated approach that can transform human-dependent traffic monitoring into an intelligent, autonomous system.
 
